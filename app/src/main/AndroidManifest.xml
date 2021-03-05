@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GitAplicationTest">
         <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.GitAplicationTest.NoActionBar"></activity>
+        <activity
             android:name=".MainActivity2"
-            android:label="@string/title_activity_main2"></activity>
+            android:label="@string/title_activity_main2" />
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login" />
